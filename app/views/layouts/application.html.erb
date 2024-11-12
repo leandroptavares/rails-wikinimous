@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <nav>
+      <div>
+        <h2><%= link_to "Wikinimous by Leandro", articles_path %></h2>
+      </div>
+      <div>
+        <button><%= link_to "New article", new_article_path %></button>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
